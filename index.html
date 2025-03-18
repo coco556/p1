@@ -1,26 +1,8 @@
 <!DOCTYPE html>
+/* 言語＝日本語　 https://schema.org/WebPage→これはSEO対策のもの　※詳細：https://digitalidentity.co.jp/blog/seo/schema-org/structured-data.html#i */
 <html lang="ja" itemscope itemtype="https://schema.org/WebPage">
 
 <head>
-    <!-- Google Tag Manager -->
-  <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-PNPMB5R');
-  </script>
-  <!-- End Google Tag Manager -->
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
@@ -92,32 +74,6 @@ var pbLocalizeObj = {"ajax":"https:\/\/coorum.jp\/wp-admin\/admin-ajax.php","sec
   <link rel="icon" type="image/png" sizes="192x192"
     href="https://d2mit8okul50gh.cloudfront.net/wp-content/themes/ASOBICA/assets/img/favicon/android-chrome-192x192.png">
   <link rel="manifest" href="/wp-content/themes/ASOBICA/assets/img/favicon/manifest_coorum.json">
-    <!-- Facebook Pixel Code -->
-  <script>
-  ! function(f, b, e, v, n, t, s) {
-    if (f.fbq) return;
-    n = f.fbq = function() {
-      n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-    };
-    if (!f._fbq) f._fbq = n;
-    n.push = n;
-    n.loaded = !0;
-    n.version = '2.0';
-    n.queue = [];
-    t = b.createElement(e);
-    t.async = !0;
-    t.src = v;
-    s = b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t, s)
-  }(window, document, 'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2292032417698293');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2292032417698293&ev=PageView&noscript=1" loading="lazy" /></noscript>
-  <!-- End Facebook Pixel Code -->
 
       <script>
   (function() {
@@ -136,52 +92,6 @@ var pbLocalizeObj = {"ajax":"https:\/\/coorum.jp\/wp-admin\/admin-ajax.php","sec
   })();
   </script>
   
-      
-    <!-- Pardot common script -->
-  <script>
-  // リファラー取得 
-  var ref = document.referrer;
-  // パラメータ取得 
-  var utm_source = getParam('utm_source');
-  var utm_medium = getParam('utm_medium');
-  var utm_campaign = getParam('utm_campaign');
-  var cookievalue = '';
-  // Cookie期限等 
-  var kigen = 365;
-  var nowdate = new Date();
-  nowdate.setTime(nowdate.getTime() + kigen * 24 * 60 * 60 * 1000);
-  var kigendate = nowdate.toGMTString();
-  var expires = "expires=" + kigendate + "; ";
-  var path =
-    "path=/";
-  // utm_source 
-  if (utm_source !== "" && utm_source !== null) {
-    cookievalue = "utm_source=" + utm_source + "; ";
-    document.cookie = cookievalue + expires + path;
-  }
-  if (utm_medium !== "" && utm_medium !== null) {
-    cookievalue = "utm_medium=" + utm_medium + "; ";
-    document.cookie = cookievalue + expires + path;
-  }
-  if (utm_campaign !== "" && utm_campaign !== null) {
-    cookievalue = "utm_campaign=" + utm_campaign + "; ";
-    document.cookie = cookievalue + expires + path;
-  }
-  if (ref != "" && ref !== null && !ref.match(/coorum.jp/)) {
-    cookievalue = "ref=" + ref + "; ";
-    document.cookie = cookievalue + expires + path;
-  }
-
-  function getParam(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-      results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-  }
-  </script>
 
   
 
@@ -189,11 +99,6 @@ var pbLocalizeObj = {"ajax":"https:\/\/coorum.jp\/wp-admin\/admin-ajax.php","sec
   </head>
 
 <body class="page-template page-template-community-template page-template-community-template-php page page-id-1703">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNPMB5R" height="0" width="0" loading="lazy"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   
   <div id="overlay" class="md-overlay"></div>
   <header id="header" class="header" itemscope="" itemtype="https://schema.org/WPHeader">
